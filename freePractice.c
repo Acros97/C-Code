@@ -32,7 +32,8 @@ int main(){
 	 * %.2f = valor con 2 decimales
 	 * %.1f = valor con 1 decimal
 	 * %d = salida de valores enteros
-	 * %c = salida para caracteres
+	 * %c = salida para caracteres (individualmente)
+  	 * %s = salida para una secuencia de caracteres (string)
 	  */
 
 	float suma = 3.4 + 2.1; // Resultado es 5.5
