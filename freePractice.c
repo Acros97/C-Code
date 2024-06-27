@@ -34,6 +34,8 @@ int main(){
 	 * %d = salida de valores enteros
 	 * %c = salida para caracteres (individualmente)
   	 * %s = salida para una secuencia de caracteres (string)
+	 * %o = muestra el valor convertido en octal, por ejemplo el entero 100 se converte en 144 (valor en octal)
+	 * %x o %X = muestra el valor convertido en Hexadecimal (%x en minusculas, %X en mayusculas).
 	  */
 
 	float suma = 3.4 + 2.1; // Resultado es 5.5
@@ -46,6 +48,13 @@ int main(){
 	  printf("%c",greeting[i]);
 	}
 
+	printf("\n\nPrint valor en Hexadecimal:\n\n");
+ 	// 252 = Valor que se va a convertir en hexadecimal
+	printf("%10x\n",252);// Output: fc
+	printf("%010x\n", 252);// Output: 00000000fc
+	printf("%#010x\n", 252); // Output: 0x000000fc
+	printf("%10.8x\n", 252); // Output: 000000fc
+ 	printf("%#10.8x\n", 252); // Output: 0x000000fc
 
     return 0;		
  }
