@@ -56,5 +56,10 @@ int main(){
 	printf("%10.8x\n", 252); // Output: 000000fc
  	printf("%#10.8x\n", 252); // Output: 0x000000fc
 
+	int value1 = 250;
+	int value2 = value1 + 5;
+	printf("Value is: %d\n", value2);
+
+
     return 0;		
  }
