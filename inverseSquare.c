@@ -57,6 +57,7 @@ int main(){
    printf("Raiz cuadrada inversa de 6: %f\n", inversa);
    float Fast_inverse_square_root = Q_rsqrt(6);
    printf("Algorimo de la raíz cuadrada inversa rápida de 6: %f\n", Fast_inverse_square_root);
+   system("pause"); // detiene la ejecución para visualizarlo desde el ejecutable.
 
    return 0;
 
