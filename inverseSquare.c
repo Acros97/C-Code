@@ -16,6 +16,9 @@ Uso en Aplicaciones: En muchas aplicaciones, especialmente en gráficos en tiemp
 
 */
 
+/*
+  Q_rsqrt() and all functions related in this file has been extracted from Id Software source code. All right reserved to Id Software. 
+*/
 
 #include <stdio.h>
 #include <math.h>
