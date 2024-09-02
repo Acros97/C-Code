@@ -11,7 +11,7 @@ printf("Entero direccion memoria: %p\n", &entero); /*Accede mediante el puntero 
 double numeroFlotante = 2.1;
 double *Puntero_numeroFlotante = &numeroFlotante;
  printf("Numero flotante direccion memoria: %p\n",Puntero_numeroFlotante); 
-
+ printf("Numero flotante valor: %.1f\n",*Puntero_numeroFlotante); // des-referenciando puntero
 
 
 
