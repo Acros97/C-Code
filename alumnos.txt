@@ -1,0 +1,3 @@
+Nombre: Juan, Nota: 6.5
+Nombre: Pedro, Nota: 5.3
+Nombre: Daniel, Nota: 8.5
