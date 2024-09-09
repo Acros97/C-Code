@@ -1,4 +1,9 @@
-#include <stdio.h>
+/* ======================
+Using Gcc compiler. 2024
+=========================
+*/
+	
+	#include <stdio.h>
 
 int fibonacci(int number){
 	if(number > 2)
