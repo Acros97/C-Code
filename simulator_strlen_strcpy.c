@@ -12,7 +12,18 @@ void my_strcpy(char *dest, const char *src){
 
 }
 
-
+void my_strcpy2(char *dest, const char *src) {
+    // Itera sobre cada carácter de la cadena de origen 'src'.
+    while (*src != '\0') {
+        // Copia el carácter de 'src' a 'dest'.
+        *dest = *src;
+        // Avanza ambos punteros para continuar la copia.
+        dest++;
+        src++;
+    }
+    // Agrega el carácter nulo '\0' al final de la cadena de destino.
+    *dest = '\0';
+}
 
 int main(){
     printf("Hello World!\n");
