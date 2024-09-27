@@ -42,7 +42,7 @@ size_t my_strlen(const char *str){
 int main(){
     printf("=================MY STRCPY=================\n");
     char character[10];
-    my_strcpy(character,"A"); // one character, to more than one, change to 'resolved_my_strcpy2' function
+    my_strcpy(character,"A"); // only one character, for more than one, change to funtion named 'resolved_my_strcpy2' 
     printf("destination value: %s\n",character); 
     printf("character mem. direction: %p\n",&character);
 
