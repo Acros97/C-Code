@@ -12,7 +12,7 @@ void my_strcpy(char *dest, const char *src){
 
 }
 
-void my_strcpy2(char *dest, const char *src) {
+void resolved_my_strcpy2(char *dest, const char *src) {
     // Itera sobre cada carácter de la cadena de origen 'src'.
     while (*src != '\0') {
         // Copia el carácter de 'src' a 'dest'.
@@ -25,11 +25,31 @@ void my_strcpy2(char *dest, const char *src) {
     *dest = '\0';
 }
 
+size_t my_strlen(const char *str){
+    
+    size_t char_size = 0;
+    while(*str != '\0'){
+        // gettin the mem. direction's value
+        char value = *str;
+        char_size++;
+        str++;
+    }
+
+    return char_size;
+}
+
+
 int main(){
-    printf("Hello World!\n");
+    printf("=================MY STRCPY=================\n");
     char character[10];
-    my_strcpy(character,"A");
-    printf("destination value: %s\n",character);
+    my_strcpy(character,"A"); // one character, to more than one, change to 'resolved_my_strcpy2' function
+    printf("destination value: %s\n",character); 
     printf("character mem. direction: %p\n",&character);
+
+    printf("=================MY STRLEN=================\n");
+    char character_len[20] = "Hello World!!";
+
+    size_t length_parameter = my_strlen(character_len);
+    printf("the length of your character is: %d\n", length_parameter);
     return 0;
 }
